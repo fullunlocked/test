@@ -146,55 +146,25 @@ p[id="introduction"]{
     padding-left: 2.5%;
 }
 
-#header{
-position:fixed;
-z-index:1000;
-left:0;
-top:0;
-width:100vw;
-height:auto;
+.topnav {
+    overflow: hidden;
+    background-color: #333;
 }
-
-#header .header{
-min-height:8vh;
-background-color: rgba(0,0,0,0.3);
-}
-
-#header .nav-bar{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  width:100%;
-  height:100%;
-  max-width:1300px;
-  padding:0 10px;
-}
-
-#header .nav-list ul{
-  list-style:none;
-  position:absolute;
-  background-color:rgb(31,30,30);
-  width:100vw;
-  height:100vh;
-  left:0;
-  top:0;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  z-index:1;
-  overflow-x:hidden;
-}
-
-#header .nav-list ul a{
-  font-size:2.5rem;
-  font-weight:500;
-  letter-spacing: .2rem;
-  text-decoration:none;
-  color:white;
-  text-transform:uppercase;
-  padding:20px;
-  display:block;
   
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
   
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.topnav a.active {
+    color: white;
 }
